@@ -22,6 +22,12 @@ body.append(ol)
 ol.textContent = `hello`
 */
 
+const ul = document.querySelector(`ul`)
+const li = document.createElement(`li`)
+li.textContent = `Alice, writer, $30`
+
+ul.append(li)
+
 
 const div = document.createElement(`div`)
 body.append(div)
